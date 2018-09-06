@@ -208,10 +208,10 @@
 						<p>
 							About : <br> <b>International Law</b>
 							<div class="clearfix"></div>
-							Final Project : <br> <b>MauKemana?</b>
+							Final Project : <br> <b>Travel Agency - MauKemana</b>
 							<div class="clearfix"></div>
 							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://romantic-volhard-839851.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://maukemana.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
 						</p>
 				    </div>
 			 	</div>
@@ -285,8 +285,7 @@
 		</div>
 	</div>
 
-	<footer style="color: white; background-color: #222; text-align: center; padding: 5px">
-	    Hacktiv8 FWDB Batch 1 | CO&CO Space, Bandung
+	<footer style="color: white; background-color: #222; text-align: center; padding: 5px">Hacktiv8 FWDB Batch 1 | CO&CO Space, Bandung
 	</footer>
 </body>
 </html>
