@@ -5,43 +5,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script type="text/javascript">
-    	document.addEventListener("DOMContentLoaded", function(){
-			$('.preloader-background').delay(1700).fadeOut('slow');
-			$('.preloader-wrapper')
-				.delay(1700)
-				.fadeOut();
-		});
-    </script>
-    <style type="text/css">
-    	body {
-    		background-color: rgba(0,0,0,0.3);;
-    		display: flex;
-    	}
-    	
-    	.card .card-title {
-    		font-size: 20px;
-    		text-align:center;
-    	}
-
-    	.preloader-background {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			background-color: rgba(0,0,0, 1);
-			
-			position: fixed;
-			z-index: 100;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;	
-		}
-    </style>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<div class="preloader-background">
@@ -124,8 +93,9 @@
 							<div class="clearfix"></div>
 							Final Project : <br> <b>Photography Enthusiast</b>
 							<div class="clearfix"></div>
-							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://ctriyandiputra.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<div class="linkproject">
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://ctriyandiputra.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							</div>
 						</p>
 				    </div>
 			 	</div>
@@ -145,8 +115,9 @@
 							<div class="clearfix"></div>
 							Final Project : <br> <b>Web Company - Aksata Atelier</b>
 							<div class="clearfix"></div>
-							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://aksataetelier.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<div class="linkproject">
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://aksataetelier.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							</div>
 						</p>
 				    </div>
 			 	</div>
@@ -166,8 +137,9 @@
 							<div class="clearfix"></div>
 							Final Project : <br> <b>Kucing Terbang Studio</b>
 							<div class="clearfix"></div>
-							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://kucing-terbang.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<div class="linkproject">
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://kucing-terbang.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							</div>
 						</p>
 				    </div>
 			 	</div>
@@ -188,8 +160,9 @@
 							<div class="clearfix"></div>
 							Final Project : <br> <b>Cilsy Career Landing Page</b>
 							<div class="clearfix"></div>
-							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://romantic-volhard-839851.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<div class="linkproject">
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://romantic-volhard-839851.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							</div>
 						</p>
 				    </div>
 			 	</div>
@@ -210,8 +183,9 @@
 							<div class="clearfix"></div>
 							Final Project : <br> <b>Travel Agency - MauKemana</b>
 							<div class="clearfix"></div>
-							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://maukemana.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<div class="linkproject">
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://maukemana.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							</div>
 						</p>
 				    </div>
 			 	</div>
@@ -232,8 +206,9 @@
 							<div class="clearfix"></div>
 							Final Project : <br> <b>Web Showroom Mobil</b>
 							<div class="clearfix"></div>
-							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://geeraldojoseshowroom.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<div class="linkproject">
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://geeraldojoseshowroom.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							</div>
 						</p>
 				    </div>
 			 	</div>
@@ -254,8 +229,9 @@
 							<div class="clearfix"></div>
 							Final Project : <br> <b>Software House Landing Page</b>
 							<div class="clearfix"></div>
-							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://primakashi.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<div class="linkproject">
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://primakashi.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							</div>
 						</p>
 				    </div>
 			 	</div>
@@ -276,8 +252,9 @@
 							<div class="clearfix"></div>
 							Final Project : <br> <b>Krishna Diswatra Photography Portfolio Website</b>
 							<div class="clearfix"></div>
-							<br><br><br>
-							<a class="waves-effect waves-light btn-floating btn orange right" href="https://primakashi.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							<div class="linkproject">
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://primakashi.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+							</div>
 						</p>
 				    </div>
 			 	</div>
