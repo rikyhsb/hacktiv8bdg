@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hacktiv8 Frontend Basic Batch 1 Bandung : Final Project </title>
+	<title>Final Project Showcase Hacktiv8 FWDB Batch 1 Bandung</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script type="text/javascript">
@@ -16,17 +19,20 @@
     </script>
     <style type="text/css">
     	body {
-    		background-color: #999;
+    		background-color: rgba(0,0,0,0.3);;
+    		display: flex;
     	}
+    	
     	.card .card-title {
-    		font-size: 22px;
+    		font-size: 20px;
+    		text-align:center;
     	}
 
     	.preloader-background {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			background-color: #999;
+			background-color: rgba(0,0,0, 1);
 			
 			position: fixed;
 			z-index: 100;
@@ -89,9 +95,18 @@
 	      	</div>
 		</div>
 	</div>
+
 	<div class="container">
 		<div class="row">
-			<div class="col s12"></div>
+			<div class="col s12">
+				<div class="center-align" style="margin-top:25px; margin-bottom: 25px;">
+				  	<img src="https://hacktiv8.com/img/logo-hacktiv8_bordered.png">
+				  	<div class="clearfix">
+			  		<span style="color: #444; font-size:47px; font-family: 'Lato' !important; font-weight: 400;">Final Project Showcase</span>
+			  		<br>
+			  		<span style="color: #444; font-size:20px; font-family: 'Lato' !important; font-weight: 400;">Front End Web Development Basics Batch 1 Bandung</span>
+				</div>
+			</div>
 		</div> 
 		<div class="row">
 			<div class="col s3">
@@ -105,14 +120,14 @@
 				    <div class="card-reveal">
 						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
 						<p>
-							About : <br> Enterpreuner
-							Final Project : <br> Photography Enthusiast
+							About : <br> <b>Enterpreuner</b>
 							<div class="clearfix"></div>
+							Final Project : <br> <b>Photography Enthusiast</b>
+							<div class="clearfix"></div>
+							<br><br><br>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://ctriyandiputra.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
 						</p>
 				    </div>
-				    <div class="card-action">
-			          <a class="waves-effect waves-light btn-floating btn orange" href="https://ctriyandiputra.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
-			        </div>
 			 	</div>
 			</div>
 			<div class="col s3">
@@ -124,8 +139,15 @@
 				      <span class="card-title activator grey-text text-darken-4">Luthfi Azizi</span>
 				    </div>
 				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+						<p>
+							About : <br> <b>Enterpreuner</b>
+							<div class="clearfix"></div>
+							Final Project : <br> <b>Web Company - Aksata Atelier</b>
+							<div class="clearfix"></div>
+							<br><br><br>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://aksataetelier.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+						</p>
 				    </div>
 			 	</div>
 			</div>
@@ -135,11 +157,18 @@
 				      <img class="activator" src="img/hanna.jpg">
 				    </div>
 				    <div class="card-content">
-				      <span class="card-title activator grey-text text-darken-4">Liqahanna Aviena Putri</span>
+				      <span class="card-title activator grey-text text-darken-4">Liqahanna Aviena P</span>
 				    </div>
-				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				   	<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+						<p>
+							About : <br> <b>Saya Makhluk Hidup</b>
+							<div class="clearfix"></div>
+							Final Project : <br> <b>Kucing Terbang Studio</b>
+							<div class="clearfix"></div>
+							<br><br><br>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://kucing-terbang.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+						</p>
 				    </div>
 			 	</div>
 			</div>
@@ -153,8 +182,15 @@
 				      <span class="card-title activator grey-text text-darken-4">Andriyana</span>
 				    </div>
 				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+						<p>
+							About : <br> <b>Creative Officer</b>
+							<div class="clearfix"></div>
+							Final Project : <br> <b>Cilsy Career Landing Page</b>
+							<div class="clearfix"></div>
+							<br><br><br>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://romantic-volhard-839851.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+						</p>
 				    </div>
 			 	</div>
 			</div>
@@ -168,8 +204,15 @@
 				      <span class="card-title activator grey-text text-darken-4">Regi Rivaldi</span>
 				    </div>
 				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+						<p>
+							About : <br> <b>International Law</b>
+							<div class="clearfix"></div>
+							Final Project : <br> <b>MauKemana?</b>
+							<div class="clearfix"></div>
+							<br><br><br>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://romantic-volhard-839851.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+						</p>
 				    </div>
 			 	</div>
 			</div>
@@ -183,8 +226,15 @@
 				      <span class="card-title activator grey-text text-darken-4">Geraldo Jose</span>
 				    </div>
 				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+						<p>
+							About : <br> <b>Mahasiswa</b>
+							<div class="clearfix"></div>
+							Final Project : <br> <b>Web Showroom Mobil</b>
+							<div class="clearfix"></div>
+							<br><br><br>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://geeraldojoseshowroom.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+						</p>
 				    </div>
 			 	</div>
 			</div>
@@ -195,11 +245,18 @@
 				      <img class="activator" src="img/prima.jpg">
 				    </div>
 				    <div class="card-content">
-				      <span class="card-title activator grey-text text-darken-4">Claudia Cahya Primadani</span>
+				      <span class="card-title activator grey-text text-darken-4">Claudia C Primadani</span>
 				    </div>
 				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+						<p>
+							About : <br> <b>Mahasiswa</b>
+							<div class="clearfix"></div>
+							Final Project : <br> <b>Software House Landing Page</b>
+							<div class="clearfix"></div>
+							<br><br><br>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://primakashi.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+						</p>
 				    </div>
 			 	</div>
 			</div>
@@ -213,174 +270,23 @@
 				      <span class="card-title activator grey-text text-darken-4">Krishna Diswatra</span>
 				    </div>
 				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+						<p>
+							About : <br> <b>Graphic Designer</b>
+							<div class="clearfix"></div>
+							Final Project : <br> <b>Krishna Diswatra Photography Portfolio Website</b>
+							<div class="clearfix"></div>
+							<br><br><br>
+							<a class="waves-effect waves-light btn-floating btn orange right" href="https://primakashi.netlify.com/" target="_blank"><i class="material-icons right">link</i></a>
+						</p>
 				    </div>
 			 	</div>
 			</div>
-			
-<!-- 			<div class="item col-xs-3 col-lg-3">
-				<div class="thumbnail card"> 
-					<div class="img-event">
-						<img class="group list-group-image img-fluid" src="img/luthfi.jpg" alt="" />
-					</div>
-					<div class="caption card-body">
-						<h4 class="group card-title inner list-group-item-heading">
-						Aksata - Web Company Profile</h4>
-						<p class="group inner list-group-item-text">
-							Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-						<div class="row">
-							<div class="col-xs-12 col-md-6">
-								<p class="lead">
-								$21.000</p>
-							</div>
-							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item col-xs-3 col-lg-3">
-				<div class="thumbnail card">
-					<div class="img-event">
-						<img class="group list-group-image img-fluid" src="img/hanna.jpg" alt="" />
-					</div>
-					<div class="caption card-body">
-						<h4 class="group card-title inner list-group-item-heading">
-						Product title</h4>
-						<p class="group inner list-group-item-text">
-							Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-						<div class="row">
-							<div class="col-xs-12 col-md-6">
-								<p class="lead">
-								$21.000</p>
-							</div>
-							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item col-xs-3 col-lg-3">
-				<div class="thumbnail card">
-					<div class="img-event">
-						<img class="group list-group-image img-fluid" src="img/andriyana.jpg" alt="" />
-					</div>
-					<div class="caption card-body">
-						<h4 class="group card-title inner list-group-item-heading">
-						Product title</h4>
-						<p class="group inner list-group-item-text">
-							Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-						<div class="row">
-							<div class="col-xs-12 col-md-6">
-								<p class="lead">
-								$21.000</p>
-							</div>
-							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item col-xs-3 col-lg-3">
-				<div class="thumbnail card">
-					<div class="img-event">
-						<img class="group list-group-image img-fluid" src="img/regi.jpg" alt="" />
-					</div>
-					<div class="caption card-body">
-						<h4 class="group card-title inner list-group-item-heading">
-						Product title</h4>
-						<p class="group inner list-group-item-text">
-							Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-						<div class="row">
-							<div class="col-xs-12 col-md-6">
-								<p class="lead">
-								$21.000</p>
-							</div>
-							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item col-xs-3 col-lg-3">
-				<div class="thumbnail card">
-					<div class="img-event">
-						<img class="group list-group-image img-fluid" src="img/geeraldo.jpg" alt="" />
-					</div>
-					<div class="caption card-body">
-						<h4 class="group card-title inner list-group-item-heading">
-						Product title</h4>
-						<p class="group inner list-group-item-text">
-							Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-						<div class="row">
-							<div class="col-xs-12 col-md-6">
-								<p class="lead">
-								$21.000</p>
-							</div>
-							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item col-xs-3 col-lg-3">
-				<div class="thumbnail card">
-					<div class="img-event">
-						<img class="group list-group-image img-fluid" src="img/prima.jpg" alt="" />
-					</div>
-					<div class="caption card-body">
-						<h4 class="group card-title inner list-group-item-heading">
-						Uncore - Software House Web Profile</h4>
-						<p class="group inner list-group-item-text">
-							Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-						<div class="row">
-							<div class="col-xs-12 col-md-6">
-								<p class="lead">
-								$21.000</p>
-							</div>
-							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item col-xs-3 col-lg-3">
-				<div class="thumbnail card">
-					<div class="img-event">
-						<img class="group list-group-image img-fluid" src="img/krisna.jpg" alt="" />
-					</div>
-					<div class="caption card-body">
-						<h4 class="group card-title inner list-group-item-heading">
-						Product title</h4>
-						<p class="group inner list-group-item-text">
-							Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-						<div class="row">
-							<div class="col-xs-12 col-md-6">
-								<p class="lead">
-								$21.000</p>
-							</div>
-							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
 		</div>
 	</div>
+
+	<footer style="color: white; background-color: #222; text-align: center; padding: 5px">
+	    Hacktiv8 FWDB Batch 1 | CO&CO Space, Bandung
+	</footer>
 </body>
 </html>
