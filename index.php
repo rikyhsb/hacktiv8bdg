@@ -255,7 +255,7 @@
 							Final Project : <br> <b>Krishna Diswatra Photography Portfolio Website</b>
 							<div class="clearfix"></div>
 							<div class="linkproject">
-								<a class="waves-effect waves-light btn-floating btn orange right" href="https://krishnadiswatraphotography.netlify.co" target="_blank"><i class="material-icons right">link</i></a>
+								<a class="waves-effect waves-light btn-floating btn orange right" href="https://krishnadiswatraphotography.netlify.com" target="_blank"><i class="material-icons right">link</i></a>
 							</div>
 						</p>
 				    </div>
